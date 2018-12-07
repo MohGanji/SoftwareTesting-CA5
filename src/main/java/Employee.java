@@ -1,5 +1,3 @@
-package java;
-
 public class Employee {
     private double innovationCoef;
     private int presenceTime;

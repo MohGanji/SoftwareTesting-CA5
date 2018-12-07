@@ -1,5 +1,3 @@
-package java;
-
 import org.junit.Before;
 import org.junit.Test;
 import java.util.ArrayList;
@@ -16,5 +14,9 @@ public class TeamSalaryCalculatorTest {
 
     private static List<Employee> team = new ArrayList<Employee>();
 
+    @Test
+    public void someTest() {
+        calculator.calculateTeamSalary(team, BASE_SALARY, HIGH_EXPERIENCE_COEF, MEDIUM_EXPERIENCE_COEF, HOURLY_WAGE);
+    }
 
 }
